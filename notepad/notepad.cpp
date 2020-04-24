@@ -26,7 +26,7 @@ Notepad::Notepad(QWidget *parent) :
     connect(ui->actionNew, &QAction::triggered, this, &Notepad::newDocument);
     connect(ui->actionOpen, &QAction::triggered, this, &Notepad::open);
     connect(ui->actionSave, &QAction::triggered, this, &Notepad::save);
-    connect(ui->actionSave_as, &QAction::triggered, this, &Notepad::saveAs);
+    connect(ui->actionSaveAs, &QAction::triggered, this, &Notepad::saveAs);
     connect(ui->actionPrint, &QAction::triggered, this, &Notepad::print);
     connect(ui->actionExit, &QAction::triggered, this, &Notepad::exit);
     connect(ui->actionCopy, &QAction::triggered, this, &Notepad::copy);
@@ -178,6 +178,6 @@ void Notepad::setFontBold(bool bold) {
 
 void Notepad::about() {
    QMessageBox::about(this, tr("About MDI"),
-                tr("<br>A <b>Notepad</b> example.</br>"
+                tr("<br>A <b>Notepad</b> example buid with Qt.</br>"
                    "<br>Author: <a href=\"https://github.com/weihuacern\">Hua Wei</a></br>"));
 }

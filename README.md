@@ -1,6 +1,6 @@
 # Qt Playground
 
-## Dev environment setup
+## Development environment setup
 
 ### MacOS
 - First, install qt and qt-creator with homebrew:

@@ -26,7 +26,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>25</height>
+     <height>22</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
@@ -36,7 +36,7 @@
     <addaction name="actionNew"/>
     <addaction name="actionOpen"/>
     <addaction name="actionSave"/>
-    <addaction name="actionSave_as"/>
+    <addaction name="actionSaveAs"/>
     <addaction name="actionPrint"/>
     <addaction name="separator"/>
     <addaction name="actionExit"/>
@@ -66,7 +66,7 @@
    <addaction name="actionNew"/>
    <addaction name="actionOpen"/>
    <addaction name="actionSave"/>
-   <addaction name="actionSave_as"/>
+   <addaction name="actionSaveAs"/>
    <addaction name="actionPrint"/>
    <addaction name="separator"/>
    <addaction name="actionCopy"/>
@@ -130,7 +130,7 @@
     <string>Ctrl+S</string>
    </property>
   </action>
-  <action name="actionSave_as">
+  <action name="actionSaveAs">
    <property name="icon">
     <iconset resource="notepad.qrc">
      <normaloff>:/images/save_as.png</normaloff>:/images/save_as.png</iconset>
@@ -170,8 +170,6 @@
    </property>
    <property name="toolTip">
     <string>Exit notepad</string>
-   </property>
-   <property name="shortcut">
    </property>
   </action>
   <action name="actionCopy">
