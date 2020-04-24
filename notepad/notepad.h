@@ -15,8 +15,7 @@ QT_END_NAMESPACE
 //! [2]
 
 //! [3]
-class Notepad : public QMainWindow
-{
+class Notepad : public QMainWindow {
     Q_OBJECT
 //! [3]
 

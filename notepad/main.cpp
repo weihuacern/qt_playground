@@ -3,8 +3,8 @@
 #include "notepad.h"
 
 int main(int argc, char *argv[]) {
-    QApplication EditorApp(argc, argv);
-    Notepad Editor;
-    Editor.show();
-    return EditorApp.exec();
+    QApplication notepadApp(argc, argv);
+    Notepad notepad;
+    notepad.show();
+    return notepadApp.exec();
 }
