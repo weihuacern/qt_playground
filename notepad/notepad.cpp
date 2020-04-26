@@ -177,7 +177,10 @@ void Notepad::setFontBold(bool bold) {
 }
 
 void Notepad::about() {
-   QMessageBox::about(this, tr("About MDI"),
+    QMessageBox::about(
+                this,
+                tr("About Notepad"),
                 tr("<br>A <b>Notepad</b> example buid with Qt.</br>"
-                   "<br>Author: <a href=\"https://github.com/weihuacern\">Hua Wei</a></br>"));
+                   "<br>Author: <a href=\"https://github.com/weihuacern\">Hua Wei</a></br>")
+    );
 }
